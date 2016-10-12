@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
 Plugin Name: ParticleJS Background
 Plugin URI: http://cakewp.com/
@@ -71,6 +71,6 @@ function output_iw_particleJs() {
                 left: 0;
             }
         </style>
-    <?
+    <?php
 }
 add_action('wp_footer', 'output_iw_particleJs');
